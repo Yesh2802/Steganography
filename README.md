@@ -8,9 +8,9 @@ Initially both the images will be in the format of jpg, when they are merged the
 The whole process is performed in the virtual environment in the system directory made using python.
 
 How to create virtual environment:
-''''
+```
 virtualenv env
 source env/bin/activate
 (*Now install requirements*)
 pip install -r requirements.txt
-''''
+```
