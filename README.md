@@ -7,10 +7,17 @@ Further it can also be unmerged using the same tool.
 Initially both the images will be in the format of jpg, when they are merged the target file will be exported in the form of first image's png format.
 The whole process is performed in the virtual environment in the system directory made using python.
 
-How to create virtual environment:
+How to create virtual environment and install the requirements:
 ```
 virtualenv env
 source env/bin/activate
 (*Now install requirements*)
 pip install -r requirements.txt
 ```
+How to merge and unmerge the files:
+```
+python steganography.py merge --img1=target/img1.jpg --img2=target/img2.jpg --output=target/output.png
+python steganography.py unmerge --img=target/output.png --output=target/output2.png
+
+```
+
