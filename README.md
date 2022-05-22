@@ -5,3 +5,4 @@ Using this tool we can hide one image into another without getting detected abou
 This tool includes the process of merging one image file into another. 
 Further it can also be unmerged using the same tool.
 Initially both the images will be in the format of jpg, when they are merged the target file will be exported in the form of png.
+The whole process is performed in the virtual environment in the system directory made using python.
